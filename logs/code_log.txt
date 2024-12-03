@@ -1,0 +1,14 @@
+[2024-11-28 11:54:25] CSV file saved successfully at data/processed/Largest_banks_data.csv
+[2024-11-28 11:54:25] Data saved successfully to SQLite database (data/processed/Banks.db) in table 'logs/code_log.txt'
+[2024-12-03 12:22:25] CSV file saved successfully at data/processed/Largest_banks_data.csv
+[2024-12-03 12:22:25] Data saved successfully to SQLite database (data/processed/Banks.db) in table 'logs/code_log.txt'
+[2024-12-03 12:22:25] Connected to SQLite database.
+[2024-12-03 12:22:25] SQLite database connection closed.
+[2024-12-03 16:19:14] CSV file saved successfully at data/processed/Largest_banks_data.csv
+[2024-12-03 16:19:14] Data saved successfully to SQLite database (data/processed/Banks.db) in table 'logs/code_log.txt'
+[2024-12-03 16:19:14] Connected to SQLite database.
+[2024-12-03 16:19:14] SQLite database connection closed.
+[2024-12-03 17:10:54] CSV file saved successfully at data/processed/Largest_banks_data.csv
+[2024-12-03 17:10:54] Data saved successfully to SQLite database (data/processed/Banks.db) in table 'logs/code_log.txt'
+[2024-12-03 17:10:54] Connected to SQLite database.
+[2024-12-03 17:10:54] SQLite database connection closed.
