@@ -20,14 +20,13 @@ def transform_data(data):
     """
     if not all(EXCHANGE_RATES.values()):
         raise ValueError("One or more exchange rates are missing or invalid in the .env file.")
+    
     data['MC_USD_Billion'] = (
         data['MC_USD_Billion'].replace('[\$,]', '', regex=True).astype(float)
         )
 
-    data['MC_GBP_Billion'] = data['MC_USD_Billion'] * EXCHANGE_RATES['GBP']
-    data['MC_EUR_Billion'] = data['MC_USD_Billion'] * EXCHANGE_RATES['EUR']
-    data['MC_INR_Billion'] = data['MC_USD_Billion'] * EXCHANGE_RATES['INR']
-    data['MC_GBP_Billion'] = data['MC_GBP_Billion'].round(2)
-    data['MC_EUR_Billion'] = data['MC_EUR_Billion'].round(2)
-    data['MC_INR_Billion'] = data['MC_INR_Billion'].round(2)
+    data['MC_GBP_Billion'] = (data['MC_USD_Billion'] * EXCHANGE_RATES['GBP']).round(2)
+    data['MC_EUR_Billion'] = (data['MC_USD_Billion'] * EXCHANGE_RATES['EUR']).round(2)
+    data['MC_INR_Billion'] = (data['MC_USD_Billion'] * EXCHANGE_RATES['INR']).round(2)
+
     return data
