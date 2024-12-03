@@ -1,0 +1,4 @@
+# ignore the Virtual environment
+venv/
+# ignore the .env file
+.env
